@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Book Listing App</string>
+
+        <!-- Title for the application. [CHAR LIMIT=12] -->
+        <string name="appQuestion">What books did they write?</string>
+        <string name ="Search_Entry">" "+Name:<xliff:g id="name" example="Amy">%s</xliff:g></string>
+</resources>
