@@ -14,42 +14,42 @@
      limitations under the License.
 -->
 <!-- Layout for a single list item -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:padding="16dp">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="0dp"
+        <ImageView
+            android:id="@+id/iv_BookCover"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/tv_BookTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/iv_BookCover"
+            tools:text="Book Title" />
 
-                <TextView
-                    android:id="@+id/Bk_Author"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-medium"
-                    android:maxLines="1"
-                    android:textAllCaps="true"
-                    android:textSize="12sp"
-                    tools:text="Author Name" />
+        <TextView
+            android:id="@+id/tv_BookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textSize="12dp"
+            android:layout_toRightOf="@+id/iv_BookCover"
+            android:layout_below="@+id/tv_BookTitle"
+            tools:text="Author Name" />
 
-                <TextView
-                    android:id="@+id/Bk_Title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    tools:text="Book Title"/>
-
-        </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
