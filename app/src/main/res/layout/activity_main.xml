@@ -9,21 +9,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.booklistingapp_V2.MainActivity">
 
-    <TextView
-        android:id="@+id/txt_question"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search a topic:"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:padding="16dp"/>
 
     <EditText
         android:id="@+id/search_field"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txt_question"
         android:layout_marginTop="0dp"
-        android:hint="Search"
+        android:hint="Search a topic"
         android:padding="16dp"
         android:textAppearance="?android:textAppearanceLarge" />
 
@@ -32,11 +24,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:hint="Submit"
         android:textAppearance="?android:textAppearanceLarge"
         android:layout_toRightOf="@id/search_field"
-        android:layout_below="@id/txt_question"
         android:background="@color/colorPrimary"
         android:textColorHint="@color/colorButtonText"
         android:shadowDx="0"
