@@ -4,11 +4,11 @@ This project was started as part of the Udacity Android Basics Nanodegree where 
 
 v.2
 ===================
-The app was further modified to make it more useful and userfriendly, including a new icon! 
--The new version has a more userfriendly interface. 
--Displays the different book cover images to help users identify a particular book.
--fixed a bug for users to list all of the authors and not just the first author.
--implemented a progress bar to let the user know that the system is working to collect feedback. 
+The app was further modified to make it more useful and userfriendly, including a new icon!  
+-The new version has a more userfriendly interface.  
+-Displays the different book cover images to help users identify a particular book.  
+-Fixed a bug for users to list all of the authors and not just the first author.  
+-Implemented a progress bar to let the user know that the system is working to collect feedback.  
 
 Getting Started
 ---------------
