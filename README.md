@@ -3,6 +3,7 @@ Book-it! a Book_Listing_App
 This project was started as part of the Udacity Android Basics Nanodegree where we use some of the code and projects we've learned from previously and built our own app that takes in search parameters and calls the Google Books API, parses the JSON response, and returns the data as an ArrayList of clickable Book objects. By clicking the link brings you to a site with more information about the book. 
 
 V2
+===================
 The app was further modified to make it more useful and userfriendly, including a new icon! 
 -The new version has a more userfriendly interface. 
 -Displays the different book cover images to help users identify a particular book.
